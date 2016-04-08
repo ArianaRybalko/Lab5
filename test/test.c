@@ -1,4 +1,4 @@
-#include "thirdparty/ctest.h"
+#include "ctest.h"
 int kvadrat(int a,int b,int c, int *x1, int *x2);
 CTEST(koren_suite, simple_test) {
     // Given
