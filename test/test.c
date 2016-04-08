@@ -2,7 +2,7 @@
 int kvadrat(int a,int b,int c, int *x1, int *x2);
 CTEST(koren_suite, simple_test) {
     // Given
-    const int a = 2;
+    const int a = 1;
     const int b = 2;
     const int c = -3;
 
