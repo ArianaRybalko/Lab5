@@ -23,3 +23,26 @@ CTEST(koren_suite, simple_test) {
     ASSERT_EQUAL(expected_x2, x2);
 }
 
+CTEST(koren_suite, simple_test_2) {
+    // Given
+    const int a = 1;
+    const int b = 2;
+    const int c = -3;
+
+ 
+    // When
+    
+    int x1;
+    int x2;
+    const int  y = kvadrat(a, b, c, &x1, &x2);
+    
+ 
+    // Then
+    const int expected_y = 2;
+    const int expected_x1 = 1;
+    const int expected_x2 = -3;
+    ASSERT_EQUAL(expected_y, y);
+    ASSERT_EQUAL(expected_x1, x1);
+    ASSERT_EQUAL(expected_x2, x2);
+}
+
