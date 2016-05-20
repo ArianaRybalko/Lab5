@@ -25,9 +25,9 @@ CTEST(koren_suite, simple_test) {
 
 CTEST(koren_suite, simple_test_2) {
     // Given
-    const int a = 1;
-    const int b = 2;
-    const int c = -3;
+    const int a = 2;
+    const int b = -4;
+    const int c = 3;
 
  
     // When
@@ -38,11 +38,9 @@ CTEST(koren_suite, simple_test_2) {
     
  
     // Then
-    const int expected_y = 2;
-    const int expected_x1 = 1;
-    const int expected_x2 = -3;
+    const int expected_y = 0;
+    
     ASSERT_EQUAL(expected_y, y);
-    ASSERT_EQUAL(expected_x1, x1);
-    ASSERT_EQUAL(expected_x2, x2);
+
 }
 
