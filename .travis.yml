@@ -1,4 +1,3 @@
 language: c
-script: 
- - make
- - ./main1
+script:
+    - make
